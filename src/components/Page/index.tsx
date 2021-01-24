@@ -17,7 +17,7 @@ const Page: React.FC = () => {
             "Model Four",
             "Model Five",
             "Model Six",
-            "Model Seven",
+            "Model Seven"
           ].map((modelName) => (
             <ModelSection
               key={modelName} // All elements in a map needs a key.
@@ -25,7 +25,7 @@ const Page: React.FC = () => {
               modelName={modelName}
               overlayNode={
                 <DefaultOverlayContent
-                  label="Model One"
+                  label={modelName}
                   description="Order Online for Delivery"
                 />
               }
