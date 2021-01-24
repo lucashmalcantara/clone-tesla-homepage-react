@@ -1,5 +1,6 @@
 import { gestureProps } from "framer-motion/types/motion/features/gestures";
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import useModel from "../useModel";
 
 import { Container } from "./styles";
 
@@ -14,8 +15,23 @@ const ModelSection: React.FC<Props> = ({
   children,
   ...props // Other properties.
 }) => {
+  const { registerModel } = useModel(modelName);
+
+  const sectionRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (sectionRef.current) {
+      //Check if the section exists.
+      registerModel({
+        modelName,
+        overlayNode,
+        sectionRef,
+      });
+    }
+  }, []);
+
   return (
-    <Container {...props}>
+    <Container ref={sectionRef} {...props}>
       {children}
     </Container>
   );
