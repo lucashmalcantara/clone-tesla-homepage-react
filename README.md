@@ -1,31 +1,46 @@
-<h1 align="center">
-UI Clone - Tesla
-</h1>
+# Getting Started with Create React App
 
-<p align="center"><a href="https://tesla.com">Tesla Homepage</a> UI clone for study purposes.</p>
-<p align="center">Click <a href="https://www.youtube.com/playlist?list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp">here</a> to the YouTube playlist.</p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<p align="center">
-  <a href="https://github.com/lucashmalcantara/clone-tesla-homepage-react/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/lucashmalcantara/clone-tesla-homepage-react?color=%236633cc&logoColor=%236633cc&style=flat" alt="Contributors">
-  </a>
-</p>
+## Available Scripts
 
-<hr>
+In the project directory, you can run:
 
-## Participants
+### `npm start`
 
-[<img src="https://avatars3.githubusercontent.com/u/14063372?s=460&v=4" width="75px;"/>](https://github.com/lucashmalcantara)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-[Lucas Alcântara](https://github.com/lucashmalcantara)
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Techs
+### `npm test`
 
-- [x] React
-- [x] Styled Components
-- [x] TypeScript
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Starting Dev Environment
+### `npm run build`
 
-1. Run `npm install` or `yarn install`.<br />
-2. Run `yarn start`.<br />
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
