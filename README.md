@@ -30,12 +30,12 @@ UI Clone - Tesla
 1. Run `npm install` or `yarn install`.<br />
 2. Run `yarn start`.<br />
 
-## Used commands 
+## Commands 
 
-### Necessary libraries:
+### Add necessary libraries
 `yarn add framer-motion styled-components`
 
-### Necessary types
+### Add necessary types
 `yarn add @types/styled-components`
 
 ## Used resources
