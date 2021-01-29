@@ -3,7 +3,8 @@ import React from "react";
 import { ModelsWrapper, ModelSection } from "../Model";
 import DefaultOverlayContent from "../DefaultOverlayContent";
 
-import { Container } from "./styles";
+import { Container, Spacer } from "./styles";
+import UniqueOverlay from "../UniqueOverlay";
 
 const Page: React.FC = () => {
   return (
@@ -17,7 +18,7 @@ const Page: React.FC = () => {
             "Model Four",
             "Model Five",
             "Model Six",
-            "Model Seven"
+            "Model Seven",
           ].map((modelName) => (
             <ModelSection
               key={modelName} // All elements in a map needs a key.
@@ -32,6 +33,8 @@ const Page: React.FC = () => {
             />
           ))}
         </div>
+        <Spacer/>
+        <UniqueOverlay/>
       </ModelsWrapper>
     </Container>
   );
